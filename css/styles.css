@@ -4269,42 +4269,81 @@ h2 {
     filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.6)) drop-shadow(0 0 40px rgba(76, 175, 80, 0.4));
 }
 
-.contact-layout {
-    display: grid;
-    grid-template-columns: auto 1fr 1fr;
-    gap: clamp(20px, 3vw, 40px);
-    align-items: start;
-    width: 100%;
-    max-width: 1400px;
-    margin-bottom: clamp(15px, 2.5vh, 25px);
+.contact-header {
+    text-align: center;
+    margin-bottom: clamp(20px, 3vh, 30px);
 }
 
 .contact-logo {
-    max-width: clamp(120px, 18vw, 180px);
+    max-width: clamp(150px, 22vw, 220px);
     height: auto;
-    filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.6)) drop-shadow(0 0 40px rgba(76, 175, 80, 0.4));
-    align-self: center;
+    filter: drop-shadow(0 0 25px rgba(76, 175, 80, 0.7)) drop-shadow(0 0 50px rgba(76, 175, 80, 0.5));
+    margin: 0 auto clamp(15px, 2vh, 20px);
+    display: block;
 }
 
-.contact-column {
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(25px, 4vw, 50px);
+    width: 100%;
+    max-width: 1400px;
+    margin-bottom: clamp(20px, 3vh, 30px);
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(76, 175, 80, 0.3);
+    border-radius: 12px;
+    padding: clamp(20px, 3vh, 35px) clamp(20px, 3vw, 35px);
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
-    gap: clamp(6px, 1.2vh, 12px);
+    gap: clamp(8px, 1.5vh, 15px);
+    transition: all 0.3s ease;
 }
 
-.contact-column h3 {
-    font-size: clamp(1.2rem, 2.3vw, 1.8rem);
-    margin-bottom: clamp(5px, 1vh, 10px);
-    color: #fff;
+.contact-card:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(76, 175, 80, 0.5);
+    transform: translateY(-3px);
 }
 
-.contact-column p {
-    font-size: clamp(0.85rem, 1.6vw, 1.1rem);
-    color: #ccc;
-    margin: clamp(2px, 0.4vh, 5px) 0;
-}
-
-.contact-column i {
+.contact-card h3 {
+    font-size: clamp(1.3rem, 2.5vw, 2rem);
+    margin-bottom: clamp(8px, 1.2vh, 12px);
     color: #4CAF50;
-    margin-right: 8px;
+    font-weight: 600;
+}
+
+.contact-card .role {
+    font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+    color: #aaa;
+    font-style: italic;
+    margin-bottom: clamp(10px, 1.5vh, 15px);
+}
+
+.contact-card p {
+    font-size: clamp(0.9rem, 1.7vw, 1.15rem);
+    color: #ddd;
+    margin: clamp(3px, 0.5vh, 6px) 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-card i {
+    color: #4CAF50;
+    margin-right: 10px;
+    font-size: 1.1em;
+}
+
+.company-info {
+    border-top: 1px solid rgba(76, 175, 80, 0.3);
+    padding-top: clamp(12px, 2vh, 18px);
+    margin-top: clamp(8px, 1.2vh, 12px);
+}
+
+.company-info p {
+    font-size: clamp(0.85rem, 1.6vw, 1.05rem);
+    color: #bbb;
 }
