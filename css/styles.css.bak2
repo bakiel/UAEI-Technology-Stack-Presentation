@@ -289,7 +289,7 @@ body {
    CONTENT SLIDES - HEADINGS
    ============================================ */
 h2 {
-    font-size: clamp(1.8rem, 4vw, 3.5rem);
+    font-size: clamp(1.3rem, 2.8vw, 2.3rem);
     margin-bottom: 1.5vh;
     font-weight: 800;
     letter-spacing: -1px;
@@ -955,7 +955,7 @@ h2 {
 }
 
 .crisis-label {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     color: #999;
     margin-top: 1vh;
 }
@@ -990,7 +990,7 @@ h2 {
 }
 
 .info-box h3 {
-    font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     margin-bottom: 2vh;
     display: flex;
     align-items: center;
@@ -1007,7 +1007,7 @@ h2 {
 
 .large-list {
     list-style: none;
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     line-height: 1.8;
 }
 
@@ -1065,7 +1065,7 @@ h2 {
 }
 
 .innovation-subtitle {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    font-size: clamp(0.9rem, 1.7vw, 1.1rem);
     color: #ccc;
 }
 
@@ -1139,7 +1139,7 @@ h2 {
 }
 
 .genius-box h4 {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     color: #FFC107;
     margin-bottom: 0.5vh;
     display: flex;
@@ -1170,7 +1170,7 @@ h2 {
 }
 
 .package-column h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2vh;
     display: flex;
     align-items: center;
@@ -1207,7 +1207,7 @@ h2 {
 }
 
 .component-item .desc {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     color: #ccc;
 }
 
@@ -1219,7 +1219,7 @@ h2 {
     background: rgba(255, 255, 255, 0.02);
     border: 1px solid rgba(76, 175, 80, 0.2);
     border-radius: 12px;
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     transition: all 0.3s ease;
 }
 
@@ -1273,7 +1273,7 @@ h2 {
 }
 
 .opportunity-section h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2.5vh;
     display: flex;
     align-items: center;
@@ -1295,7 +1295,7 @@ h2 {
 }
 
 .stat-item-inline .label {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     color: #999;
 }
 
@@ -1366,7 +1366,7 @@ h2 {
 }
 
 .stream-header h4 {
-    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
     color: #fff;
 }
 
@@ -1378,7 +1378,7 @@ h2 {
 }
 
 .stream-amount {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     color: #ccc;
     margin-bottom: 1.5vh;
     font-weight: 600;
@@ -1414,7 +1414,7 @@ h2 {
 }
 
 .ready-section h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2vh;
     display: flex;
     align-items: center;
@@ -1622,7 +1622,7 @@ h2 {
 }
 
 .year1-focus h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2vh;
     color: #4CAF50;
 }
@@ -1674,7 +1674,7 @@ h2 {
 }
 
 .impact-section h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2.5vh;
     display: flex;
     align-items: center;
@@ -1803,7 +1803,7 @@ h2 {
 }
 
 .market-section h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 2.5vh;
     display: flex;
     align-items: center;
@@ -1830,7 +1830,7 @@ h2 {
 }
 
 .market-label {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     color: #999;
 }
 
@@ -1879,7 +1879,7 @@ h2 {
 }
 
 .stress-detail {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     color: #999;
     line-height: 1.6;
 }
@@ -1911,7 +1911,7 @@ h2 {
 }
 
 .derisk-list li {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.15rem);
     color: #ccc;
     padding-left: 1.5em;
     position: relative;
@@ -1991,7 +1991,7 @@ h2 {
 }
 
 .ask-section h3 {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin-bottom: 1.8vh;
 }
 
@@ -2216,7 +2216,7 @@ h2 {
 }
 
 .contact-section h3 {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     color: #4CAF50;
     margin-bottom: 0.5vh;
     line-height: 1.2;
@@ -2305,7 +2305,7 @@ h2 {
 }
 
 .component-desc {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    font-size: clamp(0.9rem, 1.7vw, 1.1rem);
     color: #bbb;
     line-height: 1.6;
     white-space: normal;
@@ -2381,7 +2381,7 @@ h2 {
 }
 
 .stat-large-label {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    font-size: clamp(0.9rem, 1.7vw, 1.1rem);
     color: #aaa;
     margin-bottom: clamp(0.8vh, 1.2vh, 1.6vh);
     font-weight: 500;
@@ -2442,7 +2442,7 @@ h2 {
 }
 
 .stream-card-large h3 {
-    font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     color: #fff;
     margin-bottom: 1.5vh;
     font-weight: 700;
@@ -2477,7 +2477,7 @@ h2 {
 }
 
 .budget-single h3 {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     color: #4CAF50;
     text-align: center;
     margin-bottom: 1vh;
@@ -2578,7 +2578,7 @@ h2 {
 }
 
 .funding-box-large .funding-header {
-    font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     font-weight: 700;
     margin-bottom: 1vh;
 }
@@ -2616,7 +2616,7 @@ h2 {
 }
 
 .funding-detail-item i {
-    font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     min-width: 30px;
 }
 
@@ -2914,12 +2914,12 @@ h2 {
 }
 
 .impact-header i {
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     color: #4CAF50;
 }
 
 .impact-header h3 {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     color: #fff;
     font-weight: 700;
 }
@@ -2952,7 +2952,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-size: clamp(1.3rem, 2.5vw, 1.7rem);
     margin: 0 auto 1vh;
 }
 
@@ -3046,7 +3046,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     font-weight: 900;
     color: #fff;
     box-shadow: 0 6px 15px rgba(76, 175, 80, 0.4);
@@ -3160,7 +3160,7 @@ h2 {
     border: 2px solid rgba(76, 175, 80, 0.4);
     border-radius: 12px;
     text-align: center;
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    font-size: clamp(0.9rem, 1.7vw, 1.1rem);
     color: #ddd;
     display: flex;
     align-items: center;
@@ -3170,7 +3170,7 @@ h2 {
 }
 
 .market-highlight-large i {
-    font-size: clamp(1.6rem, 3.2vw, 2.3rem);
+    font-size: clamp(1.2rem, 2.2vw, 1.5rem);
     color: #4CAF50;
 }
 
@@ -3913,340 +3913,4 @@ h2 {
         bottom: clamp(10px, 2vh, 15px) !important;
         left: clamp(10px, 2vw, 15px) !important;
     }
-}
-
-/* ============================================
-   PRODUCTS GRID - SLIDE 2
-   ============================================ */
-.products-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: clamp(20px, 3vh, 50px);
-    margin-top: clamp(15px, 2.5vh, 30px);
-}
-
-.product-card {
-    background: rgba(255, 255, 255, 0.02);
-    border: 2px solid rgba(76, 175, 80, 0.2);
-    border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
-    transition: all 0.35s ease;
-    cursor: pointer;
-    position: relative;
-    overflow: visible;
-    display: flex;
-    flex-direction: column;
-    gap: clamp(12px, 2vh, 25px);
-    min-height: 280px;
-}
-
-.product-card:hover {
-    background: rgba(76, 175, 80, 0.06);
-    border-color: #4CAF50;
-    transform: translateX(12px);
-    box-shadow: 0 15px 45px rgba(76, 175, 80, 0.25);
-}
-
-.product-icon {
-    font-size: clamp(2.2rem, 4.5vw, 3.5rem);
-    color: #4CAF50;
-    margin-bottom: clamp(10px, 1.5vh, 20px);
-}
-
-.product-revenue {
-    font-size: clamp(1.3rem, 2.6vw, 2rem);
-    font-weight: 800;
-    color: #4CAF50;
-    margin: clamp(8px, 1.5vh, 15px) 0;
-}
-
-.product-card h3 {
-    font-size: clamp(1.4rem, 3vw, 2.5rem);
-    margin-bottom: clamp(10px, 1.5vh, 20px);
-}
-
-.product-card ul {
-    list-style: none;
-    padding: 0;
-    flex: 1;
-}
-
-.product-card li {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
-    line-height: 1.6;
-    padding: clamp(8px, 1.5vh, 15px) 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.product-card li:last-child {
-    border-bottom: none;
-}
-
-/* ============================================
-   AI MODELS GRID - SLIDE 3
-   ============================================ */
-.ai-models-container {
-    display: flex;
-    flex-direction: column;
-    gap: clamp(20px, 3vh, 40px);
-}
-
-.cost-comparison {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    gap: clamp(15px, 2.5vw, 35px);
-    align-items: center;
-    margin-bottom: clamp(15px, 2.5vh, 30px);
-}
-
-.cost-card {
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
-    text-align: center;
-    border: 3px solid;
-    min-height: 180px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.cost-card.expensive {
-    border-color: #F44336;
-}
-
-.cost-card.affordable {
-    border-color: #4CAF50;
-}
-
-.cost-amount {
-    font-size: clamp(2rem, 4vw, 3.5rem);
-    font-weight: 900;
-    margin: clamp(12px, 2vh, 25px) 0;
-}
-
-.cost-card.expensive .cost-amount {
-    color: #F44336;
-}
-
-.cost-card.affordable .cost-amount {
-    color: #4CAF50;
-}
-
-.cost-card p {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
-    color: #ccc;
-}
-
-.vs-badge {
-    font-size: clamp(1.8rem, 3.5vw, 3rem);
-    font-weight: 900;
-    color: #FFC107;
-    background: rgba(255, 193, 7, 0.15);
-    border-radius: 50%;
-    width: clamp(60px, 8vw, 90px);
-    height: clamp(60px, 8vw, 90px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid #FFC107;
-}
-
-.ai-models-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: clamp(20px, 3vh, 50px);
-}
-
-.ai-model {
-    background: rgba(255, 255, 255, 0.02);
-    border: 2px solid rgba(76, 175, 80, 0.2);
-    border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
-    transition: all 0.35s ease;
-    min-height: 240px;
-}
-
-.ai-model:hover {
-    background: rgba(76, 175, 80, 0.06);
-    border-color: #4CAF50;
-    transform: translateY(-8px);
-    box-shadow: 0 15px 45px rgba(76, 175, 80, 0.25);
-}
-
-.ai-model h4 {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
-    margin-bottom: clamp(12px, 2vh, 25px);
-    color: #4CAF50;
-}
-
-.ai-model ul {
-    list-style: none;
-    padding: 0;
-}
-
-.ai-model li {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
-    line-height: 1.6;
-    padding: clamp(8px, 1.5vh, 15px) 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.ai-model li:last-child {
-    border-bottom: none;
-}
-
-/* ============================================
-   CAPEX BREAKDOWN - SLIDE 4
-   ============================================ */
-.capex-breakdown {
-    display: flex;
-    flex-direction: column;
-    gap: clamp(20px, 3vh, 50px);
-}
-
-.capex-category {
-    background: rgba(255, 255, 255, 0.02);
-    border: 2px solid rgba(76, 175, 80, 0.2);
-    border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
-    transition: all 0.35s ease;
-}
-
-.capex-category.major {
-    border-color: #4CAF50;
-    background: rgba(76, 175, 80, 0.05);
-}
-
-.capex-category:hover {
-    background: rgba(76, 175, 80, 0.06);
-    border-color: #4CAF50;
-    transform: translateX(12px);
-    box-shadow: 0 15px 45px rgba(76, 175, 80, 0.25);
-}
-
-.capex-category h3 {
-    font-size: clamp(1.6rem, 3.2vw, 2.6rem);
-    margin-bottom: clamp(15px, 2.5vh, 30px);
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.capex-category h3 i {
-    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
-    color: #4CAF50;
-}
-
-.capex-detail {
-    display: flex;
-    flex-direction: column;
-    gap: clamp(10px, 1.8vh, 20px);
-}
-
-.detail-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: clamp(10px, 1.8vh, 18px) 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.detail-line span {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
-    color: #ccc;
-}
-
-.detail-line strong {
-    font-size: clamp(1.1rem, 2.3vw, 1.7rem);
-    font-weight: 800;
-    color: #4CAF50;
-}
-
-.detail-line em {
-    font-size: clamp(0.9rem, 1.9vw, 1.3rem);
-    color: #888;
-}
-
-/* ============================================
-   DATA MOAT CONTAINER - SLIDE 5
-   ============================================ */
-.data-moat-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: clamp(20px, 3vh, 50px);
-    margin-top: clamp(15px, 2.5vh, 30px);
-}
-
-.data-category {
-    background: rgba(0, 0, 0, 0.7);
-    border: 2px solid rgba(76, 175, 80, 0.3);
-    border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
-    transition: all 0.35s ease;
-    min-height: 280px;
-}
-
-.data-category:hover {
-    background: rgba(76, 175, 80, 0.06);
-    border-color: #4CAF50;
-    transform: translateY(-8px);
-    box-shadow: 0 15px 45px rgba(76, 175, 80, 0.25);
-}
-
-.data-category h3 {
-    font-size: clamp(1.4rem, 2.8vw, 2rem);
-    margin-bottom: clamp(12px, 2vh, 25px);
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.data-category h3 i {
-    font-size: clamp(1.6rem, 3.2vw, 2.4rem);
-    color: #4CAF50;
-}
-
-.data-volume {
-    font-size: clamp(1.3rem, 2.6vw, 2rem);
-    font-weight: 800;
-    color: #4CAF50;
-    margin: clamp(10px, 1.8vh, 20px) 0;
-}
-
-.data-category ul {
-    list-style: none;
-    padding: 0;
-}
-
-.data-category li {
-    font-size: clamp(0.95rem, 2vw, 1.4rem);
-    line-height: 1.6;
-    padding: clamp(8px, 1.5vh, 15px) 0;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
-}
-
-.data-category li:last-child {
-    border-bottom: none;
-}
-
-.callout-box.highlight {
-    background: rgba(76, 175, 80, 0.15);
-    border: 2px solid #4CAF50;
-    border-radius: 15px;
-    padding: clamp(15px, 2.5vh, 30px);
-    margin-top: clamp(20px, 3vh, 40px);
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.callout-box.highlight i {
-    font-size: clamp(1.8rem, 3.6vw, 2.8rem);
-    color: #4CAF50;
-}
-
-.callout-box.highlight span {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
-    line-height: 1.5;
 }

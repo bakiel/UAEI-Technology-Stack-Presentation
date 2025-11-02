@@ -87,6 +87,14 @@ function previousSlide() {
     }
 }
 
+function changeSlide(direction) {
+    if (direction > 0) {
+        nextSlide();
+    } else {
+        previousSlide();
+    }
+}
+
 // ============================================
 // ENHANCED MODAL FUNCTIONS WITH ANIMATIONS
 // ============================================
