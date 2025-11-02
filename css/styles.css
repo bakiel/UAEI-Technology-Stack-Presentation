@@ -352,7 +352,7 @@ h2 {
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: clamp(12px, 2vh, 30px);
+    gap: clamp(10px, 1.5vh, 20px);
     margin-top: clamp(8px, 1.5vh, 20px);
     max-height: 75vh;
     width: 100%;
@@ -365,7 +365,7 @@ h2 {
     background: linear-gradient(135deg, rgba(76, 175, 80, 0.04), rgba(76, 175, 80, 0.01));
     border: 2px solid rgba(76, 175, 80, 0.2);
     border-radius: 18px;
-    padding: clamp(15px, 2.5vh, 35px) clamp(15px, 2.5vw, 35px);
+    padding: clamp(10px, 1.5vh, 20px) clamp(12px, 1.8vw, 25px);
     text-align: center;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
@@ -375,8 +375,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: clamp(8px, 1.5vh, 20px);
-    min-height: clamp(150px, 18vh, 200px);
+    gap: clamp(6px, 1vh, 12px);
+    min-height: auto;
     height: auto;
 }
 
@@ -403,13 +403,13 @@ h2 {
 }
 
 .stat-card .icon {
-    font-size: clamp(1.5rem, 3.5vw, 3rem);
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
     color: #4CAF50;
     flex-shrink: 0;
 }
 
 .stat-card .number {
-    font-size: clamp(1.5rem, 3.5vw, 3rem);
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
     font-weight: 900;
     color: #fff;
     white-space: nowrap;
@@ -419,12 +419,12 @@ h2 {
 }
 
 .stat-card .label {
-    font-size: clamp(0.7rem, 1.3vw, 0.95rem);
+    font-size: clamp(0.65rem, 1.2vw, 0.85rem);
     color: #999;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.8px;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.3;
     white-space: normal;
     word-wrap: break-word;
     width: 100%;
@@ -436,8 +436,8 @@ h2 {
    ============================================ */
 .platform-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: clamp(12px, 2vh, 30px);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: clamp(10px, 1.5vh, 20px);
     margin-top: clamp(8px, 1.5vh, 20px);
     max-height: 75vh;
 }
@@ -446,16 +446,16 @@ h2 {
     background: rgba(255, 255, 255, 0.02);
     border: 2px solid rgba(76, 175, 80, 0.2);
     border-radius: 18px;
-    padding: clamp(15px, 2.5vh, 35px) clamp(15px, 2.5vw, 35px);
+    padding: clamp(10px, 1.5vh, 20px) clamp(12px, 1.8vw, 25px);
     transition: all 0.35s ease;
     cursor: pointer;
     position: relative;
     overflow: visible;
     display: flex;
     flex-direction: column;
-    gap: clamp(8px, 1.5vh, 20px);
+    gap: clamp(6px, 1vh, 12px);
     height: auto;
-    min-height: clamp(120px, 16vh, 160px);
+    min-height: auto;
 }
 
 .platform-card::before {
@@ -485,25 +485,25 @@ h2 {
 .platform-header {
     display: flex;
     align-items: center;
-    gap: clamp(10px, 2vw, 25px);
+    gap: clamp(8px, 1.5vw, 15px);
     flex-shrink: 0;
 }
 
 .platform-icon {
-    width: clamp(35px, 4vw, 45px);
-    height: clamp(35px, 4vw, 45px);
+    width: clamp(30px, 3.5vw, 40px);
+    height: clamp(30px, 3.5vw, 40px);
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
-    border-radius: 14px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1rem, 1.8vw, 1.3rem);
+    font-size: clamp(0.9rem, 1.5vw, 1.1rem);
     flex-shrink: 0;
 }
 
 .platform-card h4 {
     color: #fff;
-    font-size: clamp(1rem, 1.8vw, 1.3rem);
+    font-size: clamp(0.9rem, 1.6vw, 1.1rem);
     font-weight: 700;
     white-space: nowrap;
     overflow: visible;
@@ -1187,7 +1187,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5vh 2vw;
+    padding: clamp(8px, 1.2vh, 15px) clamp(10px, 1.5vw, 20px);
     background: rgba(76, 175, 80, 0.05);
     border: 1px solid rgba(76, 175, 80, 0.2);
     border-radius: 12px;
@@ -1201,13 +1201,13 @@ h2 {
 }
 
 .component-item .amount {
-    font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+    font-size: clamp(1rem, 2vw, 1.4rem);
     font-weight: 800;
     color: #4CAF50;
 }
 
 .component-item .desc {
-    font-size: clamp(1.05rem, 2.3vw, 1.6rem);
+    font-size: clamp(0.85rem, 1.7vw, 1.2rem);
     color: #ccc;
 }
 
@@ -1470,20 +1470,20 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5vh 2vw;
+    padding: clamp(8px, 1.2vh, 15px) clamp(10px, 1.5vw, 20px);
     background: rgba(76, 175, 80, 0.05);
     border: 1px solid rgba(76, 175, 80, 0.2);
     border-radius: 12px;
-    margin-bottom: 1.5vh;
+    margin-bottom: clamp(8px, 1.2vh, 15px);
 }
 
 .budget-label {
-    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-size: clamp(0.85rem, 1.7vw, 1.1rem);
     color: #ccc;
 }
 
 .budget-value {
-    font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     font-weight: 800;
     color: #4CAF50;
 }
@@ -2257,7 +2257,7 @@ h2 {
 }
 
 .component-large {
-    padding: clamp(30px, 4.5vh, 70px) clamp(25px, 3.5vw, 55px);
+    padding: clamp(15px, 2vh, 30px) clamp(15px, 2.5vw, 35px);
     background: linear-gradient(135deg, rgba(76, 175, 80, 0.08), rgba(76, 175, 80, 0.02));
     border: 2px solid rgba(76, 175, 80, 0.3);
     border-radius: clamp(15px, 1.5vw, 20px);
@@ -2283,13 +2283,13 @@ h2 {
 }
 
 .component-icon {
-    font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
     color: #4CAF50;
     flex-shrink: 0;
 }
 
 .component-amount {
-    font-size: clamp(2rem, 4vw, 3rem);
+    font-size: clamp(1.3rem, 2.8vw, 2rem);
     font-weight: 900;
     color: #fff;
     white-space: nowrap;
@@ -2297,7 +2297,7 @@ h2 {
 }
 
 .component-label {
-    font-size: clamp(1.2rem, 2.2vw, 1.6rem);
+    font-size: clamp(0.95rem, 1.8vw, 1.3rem);
     font-weight: 700;
     color: #4CAF50;
     white-space: nowrap;
@@ -2305,9 +2305,9 @@ h2 {
 }
 
 .component-desc {
-    font-size: clamp(1rem, 2.2vw, 1.5rem);
+    font-size: clamp(0.85rem, 1.7vw, 1.2rem);
     color: #bbb;
-    line-height: 1.6;
+    line-height: 1.5;
     white-space: normal;
     word-wrap: break-word;
     width: 100%;
@@ -2491,7 +2491,7 @@ h2 {
 }
 
 .budget-item-large {
-    padding: 1.2vh 2vw;
+    padding: clamp(8px, 1vh, 12px) clamp(10px, 1.5vw, 20px);
     background: rgba(255, 255, 255, 0.02);
     border: 2px solid rgba(76, 175, 80, 0.25);
     border-radius: 12px;
@@ -2505,27 +2505,27 @@ h2 {
 }
 
 .budget-category {
-    font-size: clamp(0.95rem, 1.8vw, 1.2rem);
+    font-size: clamp(0.85rem, 1.6vw, 1.1rem);
     color: #4CAF50;
     font-weight: 700;
-    margin-bottom: 0.5vh;
+    margin-bottom: 0.4vh;
 }
 
 .budget-percentage {
-    font-size: clamp(0.75rem, 1.4vw, 0.9rem);
+    font-size: clamp(0.7rem, 1.3vw, 0.85rem);
     color: #888;
     margin-bottom: 0.3vh;
 }
 
 .budget-amount {
-    font-size: clamp(1.2rem, 2.4vw, 1.6rem);
+    font-size: clamp(1rem, 2vw, 1.3rem);
     font-weight: 900;
     color: #fff;
     margin-bottom: 0.5vh;
 }
 
 .budget-breakdown {
-    font-size: clamp(0.7rem, 1.3vw, 0.85rem);
+    font-size: clamp(0.65rem, 1.2vw, 0.8rem);
     color: #aaa;
     line-height: 1.3;
 }
