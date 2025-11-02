@@ -4271,46 +4271,40 @@ h2 {
 
 .contact-layout {
     display: grid;
-    grid-template-columns: auto 1fr;
-    gap: clamp(30px, 5vw, 60px);
-    align-items: center;
+    grid-template-columns: auto 1fr 1fr;
+    gap: clamp(20px, 3vw, 40px);
+    align-items: start;
     width: 100%;
     max-width: 1400px;
+    margin-bottom: clamp(15px, 2.5vh, 25px);
 }
 
 .contact-logo {
-    max-width: clamp(150px, 25vw, 250px);
+    max-width: clamp(120px, 18vw, 180px);
     height: auto;
     filter: drop-shadow(0 0 20px rgba(76, 175, 80, 0.6)) drop-shadow(0 0 40px rgba(76, 175, 80, 0.4));
+    align-self: center;
 }
 
-.contact-content {
+.contact-column {
     display: flex;
     flex-direction: column;
-    gap: clamp(15px, 2.5vh, 25px);
+    gap: clamp(6px, 1.2vh, 12px);
 }
 
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    gap: clamp(8px, 1.5vh, 15px);
-    align-items: flex-start;
-    text-align: left;
-}
-
-.contact-info h3 {
+.contact-column h3 {
     font-size: clamp(1.2rem, 2.3vw, 1.8rem);
     margin-bottom: clamp(5px, 1vh, 10px);
     color: #fff;
 }
 
-.contact-info p {
+.contact-column p {
     font-size: clamp(0.85rem, 1.6vw, 1.1rem);
     color: #ccc;
     margin: clamp(2px, 0.4vh, 5px) 0;
 }
 
-.contact-info i {
+.contact-column i {
     color: #4CAF50;
     margin-right: 8px;
 }
