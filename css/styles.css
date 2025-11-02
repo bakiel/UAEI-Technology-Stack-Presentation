@@ -76,7 +76,7 @@ body {
     top: 0;
     left: 0;
     display: none;
-    padding: clamp(18px, 2.5vh, 35px) clamp(20px, 2.5vw, 45px) 10vh clamp(20px, 2.5vw, 45px);
+    padding: clamp(18px, 2.5vh, 35px) clamp(20px, 2.5vw, 45px) clamp(90px, 12vh, 110px) clamp(20px, 2.5vw, 45px);
     background: #000;
     opacity: 0;
     overflow-y: auto;
