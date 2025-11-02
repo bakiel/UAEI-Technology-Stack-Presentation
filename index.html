@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAEI Technology Stack - Complete Technical Architecture</title>
+    <meta name="description" content="UAEI Complete Technology Stack - Chinese AI Models + R309.6M CAPEX Breakdown">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css?v=110">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <button class="fullscreen-btn" id="fullscreen-btn" onclick="toggleFullscreen()" title="Toggle Fullscreen (F)">
+        <i class="fas fa-expand"></i>
+    </button>
+
+    <div class="slide-container">
+        <!-- Slide 1: Title -->
+        <div class="slide active title-slide" style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);">
+            <div class="logo-container">
+                <img src="assets/UAEI Logo for dark BG.png" alt="UAEI Logo" class="logo-img">
+            </div>
+            <h1>
+                <span class="highlight">TECHNOLOGY STACK</span><br>
+                Complete Technical Architecture
+            </h1>
+            <p class="subtitle">Chinese AI Models Strategy + R309.6M CAPEX Breakdown</p>
+            <div class="metrics-bar">
+                <div class="metric-item">
+                    <span class="value">8 Products</span>
+                    <span class="label">Revenue-Generating Platforms</span>
+                </div>
+                <div class="metric-arrow">→</div>
+                <div class="metric-item">
+                    <span class="value">R309.6M</span>
+                    <span class="label">Total CAPEX</span>
+                </div>
+                <div class="metric-arrow">→</div>
+                <div class="metric-item">
+                    <span class="value">R2B+</span>
+                    <span class="label">Data Moat (Year 5)</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 2: 8 Revenue-Generating Products -->
+        <div class="slide">
+            <h2>8 Revenue-Generating Technology Products</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-store"></i></div>
+                    <h3>1. AgriFresh Marketplace</h3>
+                    <p class="product-revenue">R850M Year 5</p>
+                    <ul>
+                        <li>B2C marketplace (farmers → consumers)</li>
+                        <li>11 SA languages + AI chat</li>
+                        <li>Real-time pricing + demand forecasting</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-robot"></i></div>
+                    <h3>2. Precision Agriculture AI</h3>
+                    <p class="product-revenue">R480M Year 5</p>
+                    <ul>
+                        <li>IoT sensors + satellite imagery</li>
+                        <li>Crop health monitoring</li>
+                        <li>Pest/disease early warning</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>3. Conservation Compost™</h3>
+                    <p class="product-revenue">R180M Year 5</p>
+                    <ul>
+                        <li>373ha wildlife sanctuary integration</li>
+                        <li>60,000t organic inputs (Year 10)</li>
+                        <li>26.4× ROI multiplication</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h3>4. Training & Certification</h3>
+                    <p class="product-revenue">R90M Year 5</p>
+                    <ul>
+                        <li>Conservation agriculture training</li>
+                        <li>SETA-accredited courses</li>
+                        <li>Mobile learning platform</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-building"></i></div>
+                    <h3>5. B2B Marketplace</h3>
+                    <p class="product-revenue">R36M Year 5</p>
+                    <ul>
+                        <li>Institutional buyers (hospitals, retailers)</li>
+                        <li>R50M contract aggregation</li>
+                        <li>Fleet logistics integration</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-credit-card"></i></div>
+                    <h3>6. AgriFinance Platform</h3>
+                    <p class="product-revenue">R16.2M Year 5</p>
+                    <ul>
+                        <li>82% credit scoring accuracy</li>
+                        <li>Stokvel group lending</li>
+                        <li>FSP license (Year 2)</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-truck"></i></div>
+                    <h3>7. Bakkie Brigade Logistics</h3>
+                    <p class="product-revenue">Enabler</p>
+                    <ul>
+                        <li>R48.6M fleet CAPEX</li>
+                        <li>Last-mile collection network</li>
+                        <li>AI route optimization</li>
+                    </ul>
+                </div>
+                <div class="product-card">
+                    <div class="product-icon"><i class="fas fa-tractor"></i></div>
+                    <h3>8. Equipment Pooling</h3>
+                    <p class="product-revenue">R1.8M Year 5</p>
+                    <ul>
+                        <li>300-farmer swarm clusters</li>
+                        <li>R85/hr vs R800/hr market</li>
+                        <li>89% cost savings for farmers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 3: Chinese AI Models Strategy -->
+        <div class="slide" style="background: linear-gradient(135deg, #1B5E20 0%, #0D3A16 100%);">
+            <h2>Chinese AI Models Strategy: 90% Cost Savings</h2>
+            <div class="ai-models-container">
+                <div class="cost-comparison">
+                    <div class="cost-card expensive">
+                        <h3>❌ OpenAI GPT-4</h3>
+                        <div class="cost-amount">$15/1M tokens</div>
+                        <p>API fees unsustainable at scale</p>
+                    </div>
+                    <div class="vs-badge">VS</div>
+                    <div class="cost-card affordable">
+                        <h3>✓ Chinese Open Source</h3>
+                        <div class="cost-amount">$1.50/1M tokens</div>
+                        <p>90% cost savings + full control</p>
+                    </div>
+                </div>
+                <div class="ai-models-grid">
+                    <div class="ai-model">
+                        <h4>GLM-4.5V (Zhipu AI)</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Multilingual chat (11 SA languages)</li>
+                            <li><strong>Cost:</strong> $1.50/1M tokens (90% cheaper than GPT-4)</li>
+                            <li><strong>Advantage:</strong> Native African language support</li>
+                        </ul>
+                    </div>
+                    <div class="ai-model">
+                        <h4>MiniCPM-V (OpenBMB)</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Crop disease detection via photos</li>
+                            <li><strong>Cost:</strong> $0.50/1M tokens (vision model)</li>
+                            <li><strong>Advantage:</strong> Runs on edge devices (offline)</li>
+                        </ul>
+                    </div>
+                    <div class="ai-model">
+                        <h4>Qwen3-72B (Alibaba)</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Agricultural advisory chatbot</li>
+                            <li><strong>Cost:</strong> $1.20/1M tokens</li>
+                            <li><strong>Advantage:</strong> 95% GPT-4 performance at 8% cost</li>
+                        </ul>
+                    </div>
+                    <div class="ai-model">
+                        <h4>Kimi K2 (Moonshot AI)</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Long-context farmer history analysis</li>
+                            <li><strong>Cost:</strong> $2/1M tokens</li>
+                            <li><strong>Advantage:</strong> 1M token context window</li>
+                        </ul>
+                    </div>
+                    <div class="ai-model">
+                        <h4>MiniMax M2</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Real-time marketplace pricing</li>
+                            <li><strong>Cost:</strong> $0.80/1M tokens</li>
+                            <li><strong>Advantage:</strong> Ultra-fast inference (60ms)</li>
+                        </ul>
+                    </div>
+                    <div class="ai-model">
+                        <h4>DeepSeek V3</h4>
+                        <ul>
+                            <li><strong>Use:</strong> Credit scoring AI model</li>
+                            <li><strong>Cost:</strong> $0.60/1M tokens</li>
+                            <li><strong>Advantage:</strong> 82% accuracy on farmer data</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 4: R309.6M CAPEX Breakdown -->
+        <div class="slide">
+            <h2>R309.6M Total CAPEX Investment</h2>
+            <div class="capex-breakdown">
+                <div class="capex-category major">
+                    <h3><i class="fas fa-laptop-code"></i> Technology Platforms: R124.8M (40%)</h3>
+                    <div class="capex-detail">
+                        <div class="detail-line">
+                            <span>AgriFresh Marketplace Development</span>
+                            <strong>R36M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>Precision Agriculture AI (IoT + Satellite)</span>
+                            <strong>R42M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>AgriFinance Platform + Credit Scoring AI</span>
+                            <strong>R18M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>Training Platform + Mobile Learning</span>
+                            <strong>R12M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>B2B Marketplace + Logistics Integration</span>
+                            <strong>R16.8M</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="capex-category">
+                    <h3><i class="fas fa-truck"></i> Fleet Infrastructure: R48.6M (16%)</h3>
+                    <div class="capex-detail">
+                        <div class="detail-line">
+                            <span>20 Hilux pickups @ R500k</span>
+                            <strong>R10M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>10 Isuzu NPR trucks @ R1.2M</span>
+                            <strong>R12M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>6 semi-trucks @ R4.5M</span>
+                            <strong>R27M</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="capex-category">
+                    <h3><i class="fas fa-tractor"></i> Equipment Pooling: R100M (32%)</h3>
+                    <div class="capex-detail">
+                        <div class="detail-line">
+                            <span>Tractors, harvesters, implements</span>
+                            <strong>R100M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>(Funded from operating cashflow Year 1-5)</span>
+                            <em>Gradual rollout</em>
+                        </div>
+                    </div>
+                </div>
+                <div class="capex-category">
+                    <h3><i class="fas fa-leaf"></i> Conservation Infrastructure: R13.2M (4%)</h3>
+                    <div class="capex-detail">
+                        <div class="detail-line">
+                            <span>373ha wildlife sanctuary establishment</span>
+                            <strong>R13.2M</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="capex-category">
+                    <h3><i class="fas fa-server"></i> IT Infrastructure: R23M (7%)</h3>
+                    <div class="capex-detail">
+                        <div class="detail-line">
+                            <span>Cloud servers + databases + CDN</span>
+                            <strong>R18M</strong>
+                        </div>
+                        <div class="detail-line">
+                            <span>Cybersecurity + backups</span>
+                            <strong>R5M</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 5: Data Moat Strategy -->
+        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/farmer-crops-sunset.jpg'); background-size: cover;">
+            <h2>R2B+ Proprietary Data Moat by Year 5</h2>
+            <div class="data-moat-container">
+                <div class="data-category">
+                    <h3><i class="fas fa-comments"></i> Farmer Communication Data</h3>
+                    <p class="data-volume">456M messages across 11 SA languages</p>
+                    <ul>
+                        <li>25,000 farmers × 52 weeks × 10 years × 35 messages/week</li>
+                        <li>Worth R2B+ for African agricultural AI training</li>
+                        <li>Competitors have ZERO multilingual farmer data</li>
+                    </ul>
+                </div>
+                <div class="data-category">
+                    <h3><i class="fas fa-chart-line"></i> Credit Scoring Data</h3>
+                    <p class="data-volume">250,000 farmer-years of repayment behavior</p>
+                    <ul>
+                        <li>82% accuracy vs 65% traditional banks</li>
+                        <li>Trained on actual African smallholder farmer data</li>
+                        <li>Impossible to replicate without 10-year dataset</li>
+                    </ul>
+                </div>
+                <div class="data-category">
+                    <h3><i class="fas fa-shopping-cart"></i> Marketplace Intelligence</h3>
+                    <p class="data-volume">13M data points (25,000 farms × 52 weeks × 10 years)</p>
+                    <ul>
+                        <li>Real-time crop pricing and demand forecasting</li>
+                        <li>Optimal planting windows per region</li>
+                        <li>Buyer preference patterns</li>
+                    </ul>
+                </div>
+                <div class="data-category">
+                    <h3><i class="fas fa-satellite"></i> IoT Sensor Network</h3>
+                    <p class="data-volume">250,000 farmer-years of environmental data</p>
+                    <ul>
+                        <li>Soil moisture, weather patterns, pest outbreaks</li>
+                        <li>Farm-level precision agriculture insights</li>
+                        <li>Competitive advantage grows exponentially with data</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="callout-box highlight">
+                <i class="fas fa-lock"></i>
+                <span><strong>Network Effects:</strong> More farmers = better AI predictions = higher success rates = more farmer adoption (self-reinforcing data flywheel)</span>
+            </div>
+        </div>
+
+        <!-- Slide 6: Mac/iOS Compatibility Strategy -->
+        <div class="slide">
+            <h2>Mac/iOS Development Strategy</h2>
+            <div class="mac-strategy-container">
+                <div class="strategy-section">
+                    <h3><i class="fab fa-apple"></i> Why Mac/iOS Matters</h3>
+                    <ul class="large-list">
+                        <li><strong>Team productivity:</strong> Developers prefer Mac for mobile development</li>
+                        <li><strong>iOS app required:</strong> 30% of SA smartphone users are iOS</li>
+                        <li><strong>Cross-platform development:</strong> React Native works best on Mac</li>
+                        <li><strong>Quality assurance:</strong> Test on actual devices (iPhone, iPad)</li>
+                    </ul>
+                </div>
+                <div class="strategy-section">
+                    <h3><i class="fas fa-laptop"></i> Hardware Sourcing Strategy</h3>
+                    <div class="hardware-list">
+                        <div class="hardware-item">
+                            <strong>10× MacBook Pro M3 (Development)</strong>
+                            <span>R60k each = R600k total</span>
+                        </div>
+                        <div class="hardware-item">
+                            <strong>5× Mac Mini M3 (CI/CD servers)</strong>
+                            <span>R18k each = R90k total</span>
+                        </div>
+                        <div class="hardware-item">
+                            <strong>Test devices (iPhone, iPad)</strong>
+                            <span>R150k total (various models)</span>
+                        </div>
+                        <div class="total-hardware">
+                            <strong>Total Mac/iOS Investment:</strong>
+                            <em>R840k (0.3% of R309.6M CAPEX)</em>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 7: Technology Timeline -->
+        <div class="slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/harvest-sunset.jpg'); background-size: cover;">
+            <h2>5-Year Technology Deployment Timeline</h2>
+            <div class="tech-timeline">
+                <div class="tech-timeline-year">
+                    <h3>Year 1</h3>
+                    <ul>
+                        <li>AgriFresh Marketplace launch (1,500 farmers)</li>
+                        <li>Precision Agriculture AI (IoT sensors deployed)</li>
+                        <li>Credit scoring AI training begins</li>
+                        <li>Bakkie Brigade fleet rollout (Phase 1)</li>
+                    </ul>
+                </div>
+                <div class="tech-timeline-year">
+                    <h3>Year 2</h3>
+                    <ul>
+                        <li>AgriFinance Platform launch (FSP license)</li>
+                        <li>Training & Certification platform (SETA accreditation)</li>
+                        <li>Conservation Compost™ production begins</li>
+                        <li>Equipment pooling Phase 1 (20 tractors)</li>
+                    </ul>
+                </div>
+                <div class="tech-timeline-year">
+                    <h3>Year 3</h3>
+                    <ul>
+                        <li>B2B Marketplace launch (institutional buyers)</li>
+                        <li>Satellite imagery integration (precision ag)</li>
+                        <li>AI credit scoring 80% accuracy achieved</li>
+                        <li>Fleet expansion to 36 vehicles</li>
+                    </ul>
+                </div>
+                <div class="tech-timeline-year">
+                    <h3>Year 4</h3>
+                    <ul>
+                        <li>Multilingual AI chatbot (11 SA languages)</li>
+                        <li>Equipment pooling full rollout (100 units)</li>
+                        <li>Conservation sanctuary 60% capacity</li>
+                        <li>18,000 farmers on platform</li>
+                    </ul>
+                </div>
+                <div class="tech-timeline-year">
+                    <h3>Year 5</h3>
+                    <ul>
+                        <li>All 8 products fully operational</li>
+                        <li>25,000 farmers on platform</li>
+                        <li>R2B+ data moat established</li>
+                        <li>R1.654B revenue achieved</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 8: Tech Stack Summary -->
+        <div class="slide">
+            <h2>Complete Tech Stack at a Glance</h2>
+            <div class="tech-stack-summary">
+                <div class="stack-layer">
+                    <h3>Frontend (User-Facing)</h3>
+                    <div class="stack-tech">
+                        <span>React Native</span>
+                        <span>Next.js</span>
+                        <span>TailwindCSS</span>
+                        <span>PWA</span>
+                    </div>
+                </div>
+                <div class="stack-layer">
+                    <h3>Backend (API & Logic)</h3>
+                    <div class="stack-tech">
+                        <span>Node.js/Express</span>
+                        <span>Python/FastAPI</span>
+                        <span>GraphQL</span>
+                        <span>Redis</span>
+                    </div>
+                </div>
+                <div class="stack-layer">
+                    <h3>AI/ML (Intelligence)</h3>
+                    <div class="stack-tech">
+                        <span>GLM-4.5V</span>
+                        <span>Qwen3-72B</span>
+                        <span>MiniCPM-V</span>
+                        <span>DeepSeek V3</span>
+                    </div>
+                </div>
+                <div class="stack-layer">
+                    <h3>Database (Storage)</h3>
+                    <div class="stack-tech">
+                        <span>PostgreSQL</span>
+                        <span>MongoDB</span>
+                        <span>Elasticsearch</span>
+                        <span>S3</span>
+                    </div>
+                </div>
+                <div class="stack-layer">
+                    <h3>Infrastructure (Cloud)</h3>
+                    <div class="stack-tech">
+                        <span>AWS/Azure</span>
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                        <span>Cloudflare CDN</span>
+                    </div>
+                </div>
+                <div class="stack-layer">
+                    <h3>IoT (Sensors)</h3>
+                    <div class="stack-tech">
+                        <span>LoRaWAN</span>
+                        <span>MQTT</span>
+                        <span>Arduino/ESP32</span>
+                        <span>Satellite Imagery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Slide 9: Contact -->
+        <div class="slide title-slide" style="background: linear-gradient(135deg, #2E7D32 0%, #1B5E20 100%);">
+            <h2>Ready to See the Technology in Action?</h2>
+            <div class="contact-info">
+                <h3>Keletso Kungwane</h3>
+                <p>Operations Director</p>
+                <p><i class="fas fa-phone"></i> +27 84 478 8872</p>
+                <p><i class="fas fa-envelope"></i> keletsok@gmail.com</p>
+                <br>
+                <h3>Kutlwano Holdings (Pty) Ltd</h3>
+                <p>Registration: 2017/103109/07</p>
+                <p>Level 1 B-BBEE Contributor</p>
+                <p><i class="fas fa-globe"></i> www.kutlwanoholdings.co.za</p>
+            </div>
+            <div class="metrics-bar">
+                <div class="metric-item">
+                    <span class="value">R309.6M</span>
+                    <span class="label">Total CAPEX</span>
+                </div>
+                <div class="metric-arrow">→</div>
+                <div class="metric-item">
+                    <span class="value">8 Products</span>
+                    <span class="label">Revenue Platforms</span>
+                </div>
+                <div class="metric-arrow">→</div>
+                <div class="metric-item">
+                    <span class="value">R2B+ Moat</span>
+                    <span class="label">Proprietary Data</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="slide-counter">
+        <span id="current-slide">1</span> / <span id="total-slides">9</span>
+    </div>
+    <div class="navigation">
+        <button class="nav-btn" id="prev-btn" onclick="changeSlide(-1)">
+            <i class="fas fa-arrow-left"></i> Prev
+        </button>
+        <button class="nav-btn" id="next-btn" onclick="changeSlide(1)">
+            Next <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+
+    <script src="js/app.js?v=110"></script>
+</body>
+</html>
