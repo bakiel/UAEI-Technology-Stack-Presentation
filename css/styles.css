@@ -76,7 +76,7 @@ body {
     top: 0;
     left: 0;
     display: none;
-    padding: 3vh 4vw 10vh 4vw;
+    padding: clamp(18px, 2.5vh, 35px) clamp(20px, 2.5vw, 45px) 10vh clamp(20px, 2.5vw, 45px);
     background: #000;
     opacity: 0;
     overflow-y: auto;
@@ -289,8 +289,8 @@ body {
    CONTENT SLIDES - HEADINGS
    ============================================ */
 h2 {
-    font-size: clamp(1.8rem, 4vw, 3.5rem);
-    margin-bottom: 1.5vh;
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
+    margin-bottom: clamp(8px, 1.5vh, 20px);
     font-weight: 800;
     letter-spacing: -1px;
     background: linear-gradient(90deg, #fff, #4CAF50);
@@ -352,8 +352,8 @@ h2 {
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: clamp(20px, 3vh, 50px);
-    margin-top: clamp(1.5vh, 2vh, 3vh);
+    gap: clamp(12px, 2vh, 30px);
+    margin-top: clamp(8px, 1.5vh, 20px);
     max-height: 75vh;
     width: 100%;
     max-width: 1400px;
@@ -365,7 +365,7 @@ h2 {
     background: linear-gradient(135deg, rgba(76, 175, 80, 0.04), rgba(76, 175, 80, 0.01));
     border: 2px solid rgba(76, 175, 80, 0.2);
     border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
+    padding: clamp(15px, 2.5vh, 35px) clamp(15px, 2.5vw, 35px);
     text-align: center;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     cursor: pointer;
@@ -375,8 +375,8 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: clamp(15px, 2.5vh, 30px);
-    min-height: clamp(200px, 25vh, 300px);
+    gap: clamp(8px, 1.5vh, 20px);
+    min-height: clamp(150px, 18vh, 200px);
     height: auto;
 }
 
@@ -403,13 +403,13 @@ h2 {
 }
 
 .stat-card .icon {
-    font-size: clamp(2rem, 4vw, 3.5rem);
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
     color: #4CAF50;
     flex-shrink: 0;
 }
 
 .stat-card .number {
-    font-size: clamp(2rem, 4.5vw, 4rem);
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
     font-weight: 900;
     color: #fff;
     white-space: nowrap;
@@ -419,12 +419,12 @@ h2 {
 }
 
 .stat-card .label {
-    font-size: clamp(0.8rem, 1.4vw, 1.05rem);
+    font-size: clamp(0.7rem, 1.3vw, 0.95rem);
     color: #999;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
-    line-height: 1.5;
+    line-height: 1.4;
     white-space: normal;
     word-wrap: break-word;
     width: 100%;
@@ -436,9 +436,9 @@ h2 {
    ============================================ */
 .platform-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: clamp(20px, 3vh, 50px);
-    margin-top: 2vh;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: clamp(12px, 2vh, 30px);
+    margin-top: clamp(8px, 1.5vh, 20px);
     max-height: 75vh;
 }
 
@@ -446,14 +446,14 @@ h2 {
     background: rgba(255, 255, 255, 0.02);
     border: 2px solid rgba(76, 175, 80, 0.2);
     border-radius: 18px;
-    padding: clamp(25px, 4vh, 60px) clamp(20px, 3vw, 50px);
+    padding: clamp(15px, 2.5vh, 35px) clamp(15px, 2.5vw, 35px);
     transition: all 0.35s ease;
     cursor: pointer;
     position: relative;
     overflow: visible;
     display: flex;
     flex-direction: column;
-    gap: clamp(15px, 2.5vh, 30px);
+    gap: clamp(8px, 1.5vh, 20px);
     height: auto;
     min-height: clamp(120px, 16vh, 160px);
 }
@@ -485,25 +485,25 @@ h2 {
 .platform-header {
     display: flex;
     align-items: center;
-    gap: clamp(15px, 2.5vw, 35px);
+    gap: clamp(10px, 2vw, 25px);
     flex-shrink: 0;
 }
 
 .platform-icon {
-    width: clamp(40px, 4.5vw, 50px);
-    height: clamp(40px, 4.5vw, 50px);
+    width: clamp(35px, 4vw, 45px);
+    height: clamp(35px, 4vw, 45px);
     background: linear-gradient(135deg, #4CAF50, #2E7D32);
     border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 1.8vw, 1.3rem);
     flex-shrink: 0;
 }
 
 .platform-card h4 {
     color: #fff;
-    font-size: clamp(1.1rem, 2vw, 1.5rem);
+    font-size: clamp(1rem, 1.8vw, 1.3rem);
     font-weight: 700;
     white-space: nowrap;
     overflow: visible;
@@ -511,7 +511,7 @@ h2 {
 }
 
 .platform-card .revenue {
-    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-size: clamp(1.2rem, 2.5vw, 2rem);
     font-weight: 800;
     color: #4CAF50;
     flex-shrink: 0;
@@ -520,8 +520,8 @@ h2 {
 
 .platform-card .description {
     color: #999;
-    font-size: clamp(0.85rem, 1.5vw, 1rem);
-    line-height: 1.6;
+    font-size: clamp(0.75rem, 1.4vw, 0.95rem);
+    line-height: 1.5;
     flex: 1;
     white-space: normal;
     word-wrap: break-word;
@@ -666,7 +666,7 @@ h2 {
 
 .modal-stat {
     background: rgba(76, 175, 80, 0.08);
-    padding: clamp(30px, 4.5vh, 70px) clamp(25px, 3.5vw, 55px);
+    padding: clamp(15px, 2.5vh, 35px) clamp(15px, 2.5vw, 35px);
     border-radius: clamp(12px, 1.5vw, 18px);
     border: 1px solid rgba(76, 175, 80, 0.25);
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
